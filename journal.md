@@ -29,3 +29,11 @@ One useful detail on alerting from the chapter: monitoring output should be one 
 
 - Installed Homebrew, Git, Azure CLI, VS Code, Docker
 - Read SRE book ch. 1: SRE is a concrete implementation of DevOps; 50% cap on ops work; alerts vs tickets vs logs
+
+
+cd ~/sre-lab
+cat >> journal.md << 'EOF'
+- Linux basics in Docker playground: chmod (600/644/755/777), ps, top, htop, df; servers use UTC
+- Simulated CPU hog with `yes > /dev/null &`, found it in htop, killed it
+EOF
+git add journal.md && git commit -m "Linux basics session" && git push
