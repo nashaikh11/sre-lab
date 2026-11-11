@@ -25,3 +25,7 @@ Provisioning
 Efficiency and performance
 
 One useful detail on alerting from the chapter: monitoring output should be one of three kinds. Alerts need a human to act now, tickets need action but not right now, and logs are only for later investigation. Nobody should be paged for something they can’t act on.
+
+
+- Installed Homebrew, Git, Azure CLI, VS Code, Docker
+- Read SRE book ch. 1: SRE is a concrete implementation of DevOps; 50% cap on ops work; alerts vs tickets vs logs
